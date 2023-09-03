@@ -8,9 +8,9 @@ import twi from '../assets/images/twi.svg';
 
 const Footer = () => {
     return (
-        <div className='footer bg-[#000033] flex items-center'>
+        <div className='footer bg-[#000033] flex items-center font-[roboto]'>
             <div className="container max-w-[1550px] w-[98%] mx-auto">
-                <div className="top py-[84px] grid grid-cols-2 text-[#ffffff]">
+                <div className="top pt-[84px] pb-[60px] grid grid-cols-2 text-[#ffffff]">
                     <div className="left max-w-[350px]">
                         <img className='h-[76px] mb-[10px]' src={LogoLight} alt="logo" />
                         <p className='text-[14px] font-[500]'>Construisant des ponts entre les consommateurs et les entreprises pour une meilleure expérience de consommation en Tunisie.</p>
