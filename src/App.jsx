@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/sohojit-task" element={<Home />} />
         <Route element={<NotFound />} />
       </Routes>
       <Footer />
