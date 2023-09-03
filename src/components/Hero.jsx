@@ -30,7 +30,7 @@ const Hero = () => {
                             />
                             {isSearchFocused &&
                                 <button
-                                    className='absolute right-[6px] top-[50%] -translate-y-[50%] bg-[#DAE4FF] rounded-full px-[20px] py-[15px] text-[15px] font-[600] transition-all'
+                                    className='absolute right-[6px] top-[50%] -translate-y-[50%] bg-[#DAE4FF] rounded-full px-[20px] py-[15px] text-[15px] text-[#000099] font-[600] transition-all'
                                 >
                                     Rechercher
                                 </button>
