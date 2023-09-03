@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Home from '../src/pages/Home';
 import NotFound from '../src/pages/NotFound';
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route element={<NotFound />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
