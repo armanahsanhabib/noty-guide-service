@@ -13,7 +13,7 @@ const Hero = () => {
             >
                 <div className="txt flex flex-col justify-around gap-y-[100px] max-w-[60%]">
                     <div className="text">
-                        <h1 className='text-[#000066] text-[48px] font-[700] leading-[58px] mb-[20px]'>Noty - Votre guide de confiance pour les services et produits en Tunisie.</h1>
+                        <h1 className='text-[#000066] text-[48px] font-[700] leading-[58px] mb-[30px]'>Noty - Votre guide de confiance pour les services et produits en Tunisie.</h1>
                         <p className='text-[#667799] text-[24px] font-[600]'>Trouvez les meilleurs produits et services en un seul endroit.</p>
                     </div>
                     <div className="search flex gap-x-5">
